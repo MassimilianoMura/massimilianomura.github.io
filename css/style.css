@@ -54,7 +54,12 @@ html, body {
 }
 
 .myself {
-  border-radius: 30%;
+
+}
+
+img.resize{
+    width:540px; /* you can use % */
+    height: auto;
 }
 
 #projects {
