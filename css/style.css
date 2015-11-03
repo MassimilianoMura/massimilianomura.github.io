@@ -25,6 +25,10 @@ html, body {
   padding: 0;
 }
 
+.navbar {
+  opacity: 0.7;
+}
+
 /* additional sections */
 #home {
   background: url(../images/home.jpg) no-repeat center center fixed;
@@ -54,6 +58,7 @@ html, body {
 }
 
 #projects {
+  opacity: 0.7;
   background-color: red;
   color: #ffffff;
 }
