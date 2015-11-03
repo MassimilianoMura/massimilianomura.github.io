@@ -40,6 +40,10 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #description {
@@ -85,6 +89,10 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 #skills .panel {
   opacity: 0.85;
