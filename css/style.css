@@ -167,11 +167,9 @@ a:hover { color: #fff; }
 
 .social.social-twitter > .back { background: #55ACEE; }
 .social.social-github > .back { background: #f3f3f3; color: #000; }
-.social.social-pinterest > .back { background: #e3262e; }
-.social.social-googleplus > .back { background: #dd4B39; }
-.social.social-skype > .back { background: #12A5F4; }
+.social.social-gmail > .back { background: #dd4B39; }
+/*.social.social-skype > .back { background: #12A5F4; }*/
 .social.social-linkedin > .back { background: #4875B4; }
-.social.social-dribbble > .back { background: #ea4c89; }
 
 /* Hover */
 .social:hover {
