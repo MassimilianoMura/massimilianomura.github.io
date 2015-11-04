@@ -42,6 +42,12 @@ html, body {
   background-size: cover;
 }
 
+.about-me-title {
+  display:inline;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
 #description {
   color: white;
   background-color: red;
