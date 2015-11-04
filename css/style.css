@@ -50,21 +50,37 @@ html, body {
   padding: 80px;
 }
 
-#about {
-}
-
-.myself {
-
-}
-
-
 #projects {
   opacity: 0.7;
   background-color: red;
   color: #ffffff;
 }
 
-.project-preview {
+.pic {
+  border: 10px solid #fff;
+  float: left;
+  margin: 20px;
+  overflow: hidden;
+
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+}
+
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
 #projects .glyphicon {
