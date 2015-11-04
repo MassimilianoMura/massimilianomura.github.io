@@ -178,7 +178,7 @@ a:hover { color: #fff; }
   transform: rotateY(100deg);
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
   #home {
     background-attachment: scroll;
     background-repeat: no-repeat;
