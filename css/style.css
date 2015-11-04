@@ -187,4 +187,10 @@ a:hover { color: #fff; }
     background-repeat: no-repeat;
     background-position: center center;
   }
+  .text-vcenter h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
 }
