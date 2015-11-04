@@ -51,9 +51,11 @@ html, body {
 }
 
 #projects {
-  opacity: 0.7;
+  /*opacity: 0.7;
   background-color: red;
-  color: #ffffff;
+  color: #ffffff;*/
+  background: #f06;
+  background: linear-gradient(45deg, #f06, yellow);
 }
 
 .pic {
@@ -114,6 +116,12 @@ html, body {
   height: 200px;
 }
 
+#empty-div {
+  background: #f06;
+  background: linear-gradient(45deg, #f06, yellow);
+  height: 100px;
+}
+
 footer {
   padding: 20px 0;
 }
@@ -123,4 +131,44 @@ footer .glyphicon {
 }
 footer .glyphicon:hover {
   color: #306d9f;
+}
+
+/* ------- social section -------*/
+
+a,a:visited { color: #fff; }
+a:hover { color: #fff; }
+
+.social {
+  float: left;
+  margin: 2em 2em; width: 100px; height: 100px;
+  display: block; text-align: center; line-height:103px; color: #fff;
+
+  position: relative;
+  transform:rotateY(0deg);
+  transition:transform .25s ease-out;
+  transform-style:preserve-3d;
+}
+.social > div {
+  width: 100px; height: 100px; background: #000;
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+}
+.social >.front {
+  transform:translateZ(40px);
+}
+.social >.back {
+  background: #3B5998; font-size: 3em;
+  transform:rotateY(-100deg) translateZ(40px);
+}
+
+.social.social-twitter > .back { background: #55ACEE; }
+.social.social-github > .back { background: #f3f3f3; color: #000; }
+.social.social-pinterest > .back { background: #e3262e; }
+.social.social-googleplus > .back { background: #dd4B39; }
+.social.social-skype > .back { background: #12A5F4; }
+.social.social-linkedin > .back { background: #4875B4; }
+.social.social-dribbble > .back { background: #ea4c89; }
+
+/* Hover */
+.social:hover {
+  transform: rotateY(100deg);
 }
