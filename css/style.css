@@ -190,7 +190,7 @@ a:hover { color: #fff; }
     background-position: center center;
   }
   .text-vcenter h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -209,6 +209,9 @@ a:hover { color: #fff; }
   .social >.back {
     background: #3B5998; font-size: 1.5em;
     transform:rotateY(-100deg) translateZ(20px);
-}
+  }
+  h2 {
+    font-size: 1.6em;
+  }
 
 }
