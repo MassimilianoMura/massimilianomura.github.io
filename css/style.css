@@ -175,3 +175,16 @@ a:hover { color: #fff; }
 .social:hover {
   transform: rotateY(100deg);
 }
+
+@media screen and (max-width: 430px) {
+  #home {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #skills {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
