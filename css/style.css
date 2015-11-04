@@ -147,7 +147,7 @@ a:hover { color: #fff; }
 
 .social {
   float: left;
-  margin: 2em 2em; width: 100px; height: 100px;
+  margin: 4em 2em; width: 100px; height: 100px;
   display: block; text-align: center; line-height:103px; color: #fff;
 
   position: relative;
@@ -195,8 +195,20 @@ a:hover { color: #fff; }
     margin: 0;
     padding: 0;
   }
-  .social > div {
-    width: 50px; height: 50px; background: #000;
+  .social {
+    float: left;
+    margin: 3em 0.3em; width: 100px; height: 100px;
+    display: block; text-align: center; line-height:51px; color: #fff;
   }
+  .social > div {
+    width: 50px; height: 50px;
+  }
+  .social >.front {
+    transform:translateZ(20px);
+  }
+  .social >.back {
+    background: #3B5998; font-size: 1.5em;
+    transform:rotateY(-100deg) translateZ(20px);
+}
 
 }
