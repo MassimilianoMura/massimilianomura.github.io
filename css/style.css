@@ -133,6 +133,11 @@ footer .glyphicon:hover {
   color: #306d9f;
 }
 
+.center-social-divs {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* ------- social section -------*/
 
 a,a:visited { color: #fff; }
