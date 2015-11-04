@@ -57,10 +57,6 @@ html, body {
 }
 
 #projects {
-  /*opacity: 0.7;
-  background-color: red;
-  color: #ffffff;*/
-  background: #f06;
   background: linear-gradient(45deg, red, white);
 }
 
@@ -123,7 +119,6 @@ html, body {
 }
 
 #empty-div {
-  background: #f06;
   background: linear-gradient(45deg, red, white);
   height: 100px;
 }
