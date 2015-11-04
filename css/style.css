@@ -125,12 +125,18 @@ html, body {
 footer {
   padding: 20px 0;
 }
+
 footer .glyphicon {
   color: #333333;
   font-size: 60px;
 }
+
 footer .glyphicon:hover {
   color: #306d9f;
+}
+
+.push {
+    height: 1px; /* .push must be the same height as .footer */
 }
 
 .center-social-divs {
