@@ -61,7 +61,7 @@ html, body {
   background-color: red;
   color: #ffffff;*/
   background: #f06;
-  background: linear-gradient(45deg, #f06, yellow);
+  background: linear-gradient(45deg, red, white);
 }
 
 .pic {
@@ -124,7 +124,7 @@ html, body {
 
 #empty-div {
   background: #f06;
-  background: linear-gradient(45deg, #f06, yellow);
+  background: linear-gradient(45deg, red, white);
   height: 100px;
 }
 
