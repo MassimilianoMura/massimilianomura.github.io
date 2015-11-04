@@ -185,6 +185,9 @@ a:hover { color: #fff; }
     background-repeat: no-repeat;
     background-position: center center;
   }
+  .navbar {
+    opacity: 0.9;
+  }
   #skills {
     background-attachment: scroll;
     background-repeat: no-repeat;
