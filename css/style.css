@@ -57,15 +57,14 @@ html, body {
 
 }
 
-img.resize{
-    width:540px; /* you can use % */
-    height: auto;
-}
 
 #projects {
   opacity: 0.7;
   background-color: red;
   color: #ffffff;
+}
+
+.project-preview {
 }
 
 #projects .glyphicon {
