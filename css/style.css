@@ -135,10 +135,6 @@ footer .glyphicon:hover {
   color: #306d9f;
 }
 
-.push {
-    height: 1px; /* .push must be the same height as .footer */
-}
-
 .center-social-divs {
   display: flex;
   justify-content: space-around;
